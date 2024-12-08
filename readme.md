@@ -25,9 +25,15 @@ Contributors
 - **Jhonny Mahinay** - *Developer*
 
 ### Behind the Scenes
-My senior, Dindo, is an accomplished developer and a commendable individual who assists in resolving bugs and enhancing this project. However, he occasionally exhibits a lack of motivation.
+My senior, Dindo, is an accomplished developer and a commendable individual who assists in resolving bugs and enhancing this project. However, he occasionally exhibits a lack of motivation. 
+
+### Benefits / Lessons Learned
+This project is a valuable learning experience for both Dindo and me. It has enhanced our skills in web development and provided us with a practical understanding of Django.
 
 Github Repository
 ------------------
 This is our reference to complete this task, A first project from our subject Application Development and Emerging Technologies.
+
 https://github.com/anxiety16/PSUSphere.git
+
+
