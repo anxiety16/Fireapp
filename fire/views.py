@@ -499,3 +499,6 @@ class WeatherConditionDelete(DeleteView):
     def form_valid(self, form):
         messages.success(self.request, 'Successfully deleted.')
         return super().form_valid(form)
+
+def error_view(request):
+    return render(request, 'error.html')

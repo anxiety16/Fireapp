@@ -8,6 +8,7 @@ from fire.views import FireFighterList, FireFighterCreate, FireFighterUpdate, Fi
 from fire.views import IncidentList, IncidentCreate, IncidentUpdate, IncidentDelete
 from fire.views import LocationList, LocationCreate, LocationUpdate, LocationDelete
 from fire.views import WeatherConditionList, WeatherConditionCreate, WeatherConditionUpdate, WeatherConditionDelete
+from fire.views import error_view
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -49,5 +50,7 @@ urlpatterns = [
     path('weathercondition_add', WeatherConditionCreate.as_view(), name='weathercondition-add'),
     path('weathercondition_list/<pk>', WeatherConditionUpdate.as_view(), name='weathercondition-update'),
     path('weathercondition_list/<pk>/delete', WeatherConditionDelete.as_view(), name='weathercondition-delete'),
+
+    path('error/', error_view, name='error'),
 
 ]

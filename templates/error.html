@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,14 +8,14 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8d7da;
+            background-color: #f3eeee;
             color: #721c24;
             text-align: center;
             padding: 50px;
         }
         .error-container {
             border: 1px solid #f5c6cb;
-            background-color: #f8d7da;
+            background-color: #ffffff;
             padding: 20px;
             border-radius: 5px;
             display: inline-block;
@@ -35,15 +36,24 @@
 <body>
     <div class="error-container">
         <h1>Error Occurred</h1>
-        <p>Something went wrong. Please try again later.</p>
-        <button class="error-button" onclick="handleError()">Report Error</button>
+        <h3>🙋🏻Hi im Dindo Ai🤖 how can i help you?</h3>
+        <p>Something went wrong. You can ask to Dindo Ai to fix this.</p>
+        <button class="error-button" onclick="handleError()">Dindo Ai service</button>
+        <p>Click to ask Dindo Ai🤖.</p><br><br>
+
+            <img src="{% static 'img/error.gif' %}" alt="Error Image"><br><br>
+        <button class="error-button" onclick="handleError2()"> Report Dindo Ai</button>
+        <p>If Dindo Ai🤖 can't fix it Click report<br> .</p>
     </div>
 
     <script>
         function handleError() {
-            alert("Error reported! We will look into it.");
-           
+            alert("Dindo Ai analyzing the error...\n\n Are you Computer Science?\n Find the solution don't be lazy 😪.");
         }
+        function handleError2() {
+            alert("Error reported! We will look into it...\n\n 🤬Dindo Ai:\n I wanto to drop ");
+        }
+        
     </script>
 </body>
 </html>
