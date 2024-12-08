@@ -29,5 +29,5 @@ My senior, Dindo, is an accomplished developer and a commendable individual who 
 
 Github Repository
 ------------------
-
+This is our reference to complete this task, A first project from our subject Application Development and Emerging Technologies.
 https://github.com/anxiety16/PSUSphere.git
