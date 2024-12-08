@@ -1,4 +1,4 @@
-PSUSphere
+FireApp
 =========
 
 FireApp: Enhancing Fire Safety in Puerto Princesa City
